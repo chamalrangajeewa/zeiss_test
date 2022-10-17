@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32811.315
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{B7820D46-5885-4C87-BE43-C04D5E754ECD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{A101E394-A8F1-49E0-A36F-661D1AE9C298}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "application", "application", "{220DF939-2169-4A8C-A5E3-E94A6128E737}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "zeiss.machine.monitoring", "src\application\zeiss.machine.monitoring\zeiss.machine.monitoring.csproj", "{77976E92-1E83-4CA1-B7F7-8945BF336B95}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "clients", "clients", "{00E69C6E-3972-49CF-AE04-741BB7B07CE3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "zeiss.machine.monitoring.websocket.client", "src\clients\zeiss.machine.monitoring.websocket.client\zeiss.machine.monitoring.websocket.client.csproj", "{ED0F85F4-2757-470E-9410-B5097D579282}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "zeiss.machine.monitoring.webapi", "src\clients\zeiss.machine.monitoring.webapi\zeiss.machine.monitoring.webapi.csproj", "{6EE5C250-D72C-4001-A148-A91C80B7E990}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D3D3003C-4258-4AA9-BE13-A44CE2539D2D}"
+	ProjectSection(SolutionItems) = preProject
+		zeiss_test.drawio.pdf = zeiss_test.drawio.pdf
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{77976E92-1E83-4CA1-B7F7-8945BF336B95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77976E92-1E83-4CA1-B7F7-8945BF336B95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77976E92-1E83-4CA1-B7F7-8945BF336B95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77976E92-1E83-4CA1-B7F7-8945BF336B95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED0F85F4-2757-470E-9410-B5097D579282}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED0F85F4-2757-470E-9410-B5097D579282}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED0F85F4-2757-470E-9410-B5097D579282}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED0F85F4-2757-470E-9410-B5097D579282}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6EE5C250-D72C-4001-A148-A91C80B7E990}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EE5C250-D72C-4001-A148-A91C80B7E990}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EE5C250-D72C-4001-A148-A91C80B7E990}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EE5C250-D72C-4001-A148-A91C80B7E990}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{220DF939-2169-4A8C-A5E3-E94A6128E737} = {B7820D46-5885-4C87-BE43-C04D5E754ECD}
+		{77976E92-1E83-4CA1-B7F7-8945BF336B95} = {220DF939-2169-4A8C-A5E3-E94A6128E737}
+		{00E69C6E-3972-49CF-AE04-741BB7B07CE3} = {B7820D46-5885-4C87-BE43-C04D5E754ECD}
+		{ED0F85F4-2757-470E-9410-B5097D579282} = {00E69C6E-3972-49CF-AE04-741BB7B07CE3}
+		{6EE5C250-D72C-4001-A148-A91C80B7E990} = {00E69C6E-3972-49CF-AE04-741BB7B07CE3}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5C0D4C4D-D9B1-4759-8940-CD6F18728C85}
+	EndGlobalSection
+EndGlobal
